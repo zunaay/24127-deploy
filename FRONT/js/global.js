@@ -1,8 +1,5 @@
-const url = window.location.href;
-let dbhost = "http://localhost:7070";
-if (!url.includes("localhost") && !url.includes("//127.0.0")) {
-    dbhost = "https://zunay.alwaysdata.net";
-};
+// DB REMOTA
+const dbhost = "https://zunay.alwaysdata.net";
 
 
 // Cuenta articulos en el carrito y lo muestra en el icono

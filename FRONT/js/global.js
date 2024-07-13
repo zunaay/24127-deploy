@@ -1,7 +1,7 @@
 const url = window.location.href;
 let dbhost = "http://localhost:7070";
 if (!url.includes("localhost") && !url.includes("//127.0.0")) {
-    dbhost = "http://zunay.alwaysdata.net";
+    dbhost = "https://zunay.alwaysdata.net";
 };
 
 
